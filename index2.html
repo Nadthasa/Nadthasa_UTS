@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website - Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .gallery-container {
+            max-height: 400px; /* Set the max height for the container */
+            overflow: auto; /* Enable scrolling */
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            margin: 10px;
+        }
+
+        .gallery-item img, .gallery-item video {
+            max-width: 100%;
+            height: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index1.html">Table</a></li>
+                <li><a href="index2.html">Gallery</a></li>
+                <li><a href="index3.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <section class="main-content">
+            <h2>Gallery</h2>
+            <h3>Photo Gallery</h3>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="IMG_0260.JPG" alt="Photo 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="IMG_3710.png" alt="Photo 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="IMG_5856.png" alt="Photo 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="IMG_6178 2.png" alt="Photo 4">
+                </div>
+                <div class="gallery-item">
+                    <img src="foto.JPG" alt="Photo 5">
+                </div>
+                <div class="gallery-item">
+                    <img src="IMG_9126 copy.jpg" alt="Photo 6">
+                </div>
+                <div class="gallery-item">
+                    <img src="750607c2-b354-420e-86a9-3015e3d0d36c copy.jpg" alt="Photo 7">
+                </div>
+                <div class="gallery-item">
+                    <img src="de2c6e7d-12b4-4ee0-aa97-992b58ab459e copy.jpg" alt="Photo 8">
+                </div>
+                <div class="gallery-item">
+                    <img src="_MG_8326.jpg" alt="Photo 9">
+                </div>
+                <div class="gallery-item">
+                    <img src="fototmn.JPG" alt="Photo 10">
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Personal Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
